@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://telegram.org/js/telegram-web-app.js?56"></script>
+    <title>test</title>
+</head>
+<body>
+    <div class="wer"></div>
+
+    <script>
+        const tg = window.Telegram.WebApp;
+        const user_id = tg.initData.id
+        document.querySelector('.wer').innerHTML = user_id
+    </script>
+</body>
+</html>
